@@ -1,0 +1,243 @@
+
+
+
+@media screen and (max-width: 1025px) {
+  h1 {
+    font-size: 2rem;
+}
+
+.font-20, .font-18 {
+  font-size: 0.8rem;
+}
+
+
+.heading-wrapper {
+  height: 18vh;
+}
+.social-icons img {
+  width: 1.5rem;
+}
+.social-icons {
+  gap: 1rem;
+}
+
+.buy-btn {
+  padding: 1.2rem 2.5rem;
+ 
+}
+}
+
+@media screen and (max-width: 1025px) {
+  h1 {
+    font-size: 1.7rem;
+}
+  .social-icons img {
+    width: 1.3rem;
+}
+.social-icons {
+  gap: 10px;
+}
+
+.buy-btn {
+  padding: 0.7rem 1.5rem;
+}
+
+}
+
+
+@media screen and (max-width: 450px) {
+  .container {
+    padding: auto 0;
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .font-40 {
+    font-size: 2rem;
+  
+  }
+    .font-32 {
+      font-size: 1.7rem;
+  }
+  .font-18 {
+    font-size: 1rem;
+}
+
+.font-20 {
+  font-size: 1.5rem;
+}
+  /* HEADER */
+  #logo img {
+    width: 40%;
+  }
+
+  /* HERO SECTION  */
+  .hero-sect {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .content-divider {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 25vh;
+  }
+
+  .heading,
+  .release-heading {
+    padding: 0;
+  }
+
+  .content-detail .hero,
+  .content-detail .release,
+  .social-link,
+  .release-info {
+    width: 100%;
+  }
+  .heading h1 {
+    /* padding: 0; */
+    margin: 0;
+    width: 100%;
+  }
+
+  .image-wrapper {
+    order: 0;
+  }
+
+  .corner-border {
+    border-right-width: 1.2rem;
+    border-top-width: 1.2rem;
+    width: 50px;
+    height: 50px;
+  }
+
+  .image-wrapper img {
+    width: 100%;
+    position: relative;
+    top: 1rem;
+  }
+
+  .content-image {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .content-detail {
+    max-width: fit-content;
+    order: 3;
+  }
+
+  .social-link {
+    flex-direction: column;
+    gap: 1.7rem;
+  }
+
+  .social-link a {
+    text-align: center;
+  }
+  .social-icons {
+    gap: 0.9rem;
+    justify-content: center;
+  }
+
+  /* RELEASE CONTENT  */
+  .release-heading-wrapper {
+    height: 20vh;
+  }
+
+  .release-image-wrapper {
+    order: 2;
+  }
+
+  .release-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* MORE BOOKS  */
+
+  .box-container {
+    overflow: hidden;
+    gap: 2.8rem;
+    margin-right: -1.2rem;
+    margin-top: 0;
+  }
+
+  .box {
+    min-width: 70%;
+  }
+  .book-image {
+    min-width: 100%;
+  }
+  .book-image img {
+    width: 100%;
+  }
+
+  .dots-container {
+    display: flex;
+  }
+
+  /* FOOTER  */
+  .f-logo {
+    width: 10vw;
+  }
+
+  /* BOOK DETAIL PAGE  */
+
+  .corner-box{
+    display: none;
+  }
+
+  .detail {
+    margin-left: 5%;
+}
+  .book-detail-sect {
+  position: unset;
+ 
+}
+  .book-detail-wrapper {
+    grid-template-columns: 100%;
+  }
+
+  .first-half {
+    grid-column: 1 / span 1;
+    flex-direction: column;
+  }
+
+  .book-cover {
+    max-width: 100%;
+}
+
+.detail-bottom {
+  flex-direction: column;
+  padding: 0;
+}
+
+.bottom.corner-box-container {
+  position: unset;
+  z-index: -1;
+}
+
+.p-label {
+  font-size: 15px;
+}
+
+.book-heading-wrapper {
+  margin: 0 1.2rem;
+  padding: 0;
+
+}
+
+.detail-bottom {
+  gap: 3rem;
+}
+}
